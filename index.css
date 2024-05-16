@@ -1,0 +1,84 @@
+body {
+
+  font-family:  "Happy Monkey", cursive;
+  text-align: center;
+    color: #ffffff;
+    background: #a2d2ff;
+    background:linear-gradient(red, blue);
+
+    
+  }
+  #header {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  #photo {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+    
+  }
+  h1,h2,h3,h4,p{
+    text-shadow: 0px 0px 2px black;
+   
+  }
+  #age{
+  
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  
+  #date {
+  
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0;
+  }
+  
+  
+  .gift-section {
+  
+    margin-top: 50px;
+  }
+  
+  .gift-title {
+  
+    margin-bottom: 10px;
+  }
+  
+  .gift-hint{
+  
+    margin-top: 0;
+  }
+  
+  
+  .gift{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-size: cover;
+
+    background-image: url("/image/gift-cover.jpg");
+    border: 6px solid white;
+    border-radius: 10px;
+  }
+  
+
+  .gift:hover{
+    background-image: url("/GITHUB/happy.gif");
+  }
+  #gift4:hover{
+    background-image:url("/GITHUB/hot.gif");;
+  }
+  #gift5:hover{
+    background-image:url("/GITHUB/cheers.gif");
+  }
+  #gift6:hover{
+    background-image:url("/GITHUB/badass.gif");
