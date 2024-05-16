@@ -65,20 +65,20 @@ body {
     border-radius: 10px;
     background-size: cover;
 
-    background-image: url("/image/gift-cover.jpg");
+    background-image: url(/gift-cover.jpg);
     border: 6px solid white;
     border-radius: 10px;
   }
   
 
   .gift:hover{
-    background-image: url("/GITHUB/happy.gif");
+    background-image: url("happy.gif");
   }
   #gift4:hover{
-    background-image:url("/GITHUB/hot.gif");;
+    background-image:url("hot.gif");;
   }
   #gift5:hover{
-    background-image:url("/GITHUB/cheers.gif");
+    background-image:url("cheers.gif");
   }
   #gift6:hover{
-    background-image:url("/GITHUB/badass.gif");
+    background-image:url("badass.gif");
